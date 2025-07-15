@@ -1,0 +1,97 @@
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   html,body {
+        height: 100%;
+    }
+body {
+    font-family: 'figtree' sans-serif;
+    background-color: hsl(47, 88%, 63%);
+    height: 100%;
+}
+.container {
+    background-color: #fff;
+    width:min(90%, 400px);
+    margin: 2rem auto;
+    border: 2px solid black;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 10px 0 black;
+    transition: all 0.2s ease;
+}
+.container:hover {
+  box-shadow: 8px 12px 0 black;
+  transform: translateY(-4px); 
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+.learning-btn {
+    background-color: hsl(47, 88%, 63%);
+    display: block;
+    width: 6rem;
+    padding: 0.3rem 0.4rem;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: back-ground 0.3s ease;
+}
+.learning-btn:hover {
+    background-color: rgb(160, 160, 67);
+}
+.card-text {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h1 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 7%)
+}
+h2 {
+    font-weight: 900;
+}
+p {
+    color: hsl(0, 0%, 42%);
+    line-height: 1.3rem;
+    font-size: 1rem;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.profile-image {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+@media(min-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        max-width: 380px;
+    }
+}
