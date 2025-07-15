@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 - 🔗 **Solution URL:** [My GitHub Repo](https://github.com/alexx021dev/Blog-Card))
-- 🔗 **Live Site URL:** [Live Demo]()
+- 🔗 **Live Site URL:** [Live Demo](https://alexx021dev.github.io/Blog-Card/)
 
 ---
 
